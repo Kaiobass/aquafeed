@@ -10,7 +10,7 @@ interface LoginScreenProps {
 const socialButtons = [
   {
     id: 'google',
-    label: 'Continue with Google',
+    label: 'Continue com Google',
     filled: false,
     icon: (
       <svg className="h-5 w-5" viewBox="0 0 24 24" aria-hidden="true">
@@ -45,7 +45,7 @@ const socialButtons = [
   },
   {
     id: 'facebook',
-    label: 'Continue with Facebook',
+    label: 'Continue com Facebook',
     filled: true,
     icon: (
       <svg className="h-5 w-5" viewBox="0 0 24 24" fill="white" aria-hidden="true">
