@@ -139,11 +139,16 @@ export default function LoginScreen({ onNavigate }: LoginScreenProps) {
       >
         <p className="text-[13px] font-semibold text-[#1d2538]">Nossos parceiros</p>
         <div className="mt-4 flex justify-center">
-          <div className="rounded-[20px] bg-white px-5 py-4 shadow-[0_14px_30px_rgba(51,88,170,0.12)]">
-            <img
-              src={partnerLogoUrl}
-              alt="Instituto Federal de Sergipe"
-              className="h-20 w-auto object-contain"
+  <a
+    href="https://snipboard.io/PT6GXU.jpg"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-[20px] bg-white px-5 py-4 shadow-[0_14px_30px_rgba(51,88,170,0.12)] transition hover:scale-[1.02]"
+  >
+    <img
+      src={partnerLogoUrl}
+      alt="Instituto Federal de Sergipe"
+      className="h-20 w-auto object-contain"
             />
           </div>
         </div>
