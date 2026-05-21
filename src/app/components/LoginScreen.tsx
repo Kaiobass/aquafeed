@@ -149,8 +149,9 @@ export default function LoginScreen({ onNavigate }: LoginScreenProps) {
       src={partnerLogoUrl}
       alt="Instituto Federal de Sergipe"
       className="h-20 w-auto object-contain"
-            />
-          </div>
+    />
+  </a>
+</div>
         </div>
       </motion.div>
     </MobileScreen>
