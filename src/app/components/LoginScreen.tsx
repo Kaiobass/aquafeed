@@ -35,7 +35,7 @@ const socialButtons = [
   },
   {
     id: 'apple',
-    label: 'Continue with Apple',
+    label: 'Continue com Apple',
     filled: false,
     icon: (
       <svg className="h-5 w-5 text-black" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
