@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import { motion } from 'motion/react';
 import { Screen } from '../App';
-import { LogoLockup, MobileScreen, partnerLogoUrl } from './mobile-ui';
+import { LogoLockup, MobileScreen } from './mobile-ui';
 
 interface LoginScreenProps {
   onNavigate: (screen: Screen) => void;
@@ -138,7 +138,7 @@ export default function LoginScreen({ onNavigate }: LoginScreenProps) {
         transition={{ delay: 0.55 }}
       >
         <p className="text-[13px] font-semibold text-[#1d2538]">Nossos parceiros</p>
-        <div className="mt-4 flex justify-center">
+       <div className="mt-4 flex justify-center">
   <a
     href="https://snipboard.io/PT6GXU.jpg"
     target="_blank"
@@ -146,7 +146,7 @@ export default function LoginScreen({ onNavigate }: LoginScreenProps) {
     className="rounded-[20px] bg-white px-5 py-4 shadow-[0_14px_30px_rgba(51,88,170,0.12)] transition hover:scale-[1.02]"
   >
     <img
-      src={partnerLogoUrl}
+      src="https://snipboard.io/PT6GXU.jpg"
       alt="Instituto Federal de Sergipe"
       className="h-20 w-auto object-contain"
     />
