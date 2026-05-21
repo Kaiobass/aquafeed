@@ -152,7 +152,7 @@ export default function LoginScreen({ onNavigate }: LoginScreenProps) {
     />
   </a>
 </div>
-        </div>
+       
       </motion.div>
     </MobileScreen>
   );
