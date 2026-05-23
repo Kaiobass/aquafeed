@@ -46,6 +46,7 @@ img
 O cronograma do projeto é dividido em entregas mensais ao longo de 3 meses. Acompanhe o progresso do desenvolvimento abaixo:
 
 ### 📍 Milestone 1: Base Forte e Design Focado no Campo (Prazo: 29 de Maio)
+#### Link do Relatório (Maio): [Relatório - Maio](https://docs.google.com/document/d/1c4bVccjR0S4GJxiqdbLch61k3NYVSsJv/edit?usp=sharing&ouid=102176604401866097318&rtpof=true&sd=true)
 **Front-end:**
 - [X] Definir identidade visual com foco estrito em mobile-first (botões grandes e acessíveis). 
 - [X] Criar wireframes para cadastro de tanques e dashboard.  
