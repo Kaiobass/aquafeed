@@ -1,6 +1,7 @@
 # 🐟 AquaFeed - Monitoramento e Alertas para Piscicultura
 
 Bem-vindo ao repositório do desafio da empresa **AquaFeed** da segunda fase do curso Futuro Digital (CEPEDI)! 
+
 Equipe: Campus Lagarto
 
 ## 📖 Sobre o Projeto
@@ -23,12 +24,16 @@ O objetivo deste projeto é desenvolver o Minimum Viable Product (MVP) do AquaFe
 
 ## 🏗️ Arquitetura e Modelagem
 
-### Diagramas de Arquitetura
-img
+### Diagrama de Entidade e Relacionamento (DER)
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/09c56b96-b6a6-4510-893b-c5a9185aba09" />
+
 
 ### Modelagem do Banco de Dados
 A modelagem foi pensada com uma arquitetura preparada para o futuro, utilizando uma tabela genérica de parâmetros para facilitar a adição de novos sensores além de temperatura e oxigenação. 
-img
+
+<img width="1600" height="960" alt="image" src="https://github.com/user-attachments/assets/6394380b-a2d6-4150-98a9-f3a7100ef043" />
+
 
 ---
 
