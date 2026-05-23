@@ -17,7 +17,7 @@ O objetivo deste projeto é desenvolver o Minimum Viable Product (MVP) do AquaFe
 
 ## 📋 Tabela de Requisitos
 
-inserir imagem
+* **Tabela de Requisitos Funcionais e Não Funcionais:** [Arquivo - Tabelas](https://drive.google.com/file/d/1iYt9pWNpbMF0SwKH4XlvKRx1-2l_k4mc/view?usp=sharing)
 
 ---
 
