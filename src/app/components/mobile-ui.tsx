@@ -1,5 +1,5 @@
 import type { ButtonHTMLAttributes, ReactNode } from 'react';
-import { BatteryFull, ChevronDown, SignalHigh, WifiHigh } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import { cn } from './ui/utils';
 
 export const partnerLogoUrl = `${import.meta.env.BASE_URL}ifs_logo.png`;
@@ -8,12 +8,12 @@ export const formLabelClassName =
   'mb-2 block text-[11px] font-semibold uppercase tracking-[0.12em] text-[#51607d]';
 
 export const inputClassName =
-  'h-12 w-full rounded-[12px] border border-[#84a4eb] bg-white px-4 text-[14px] font-semibold text-[#13213c] shadow-[0_8px_20px_rgba(79,120,211,0.12)] transition placeholder:font-medium placeholder:text-[#a0afcb] focus:border-[#1253d5] focus:outline-none focus:ring-4 focus:ring-[#1b56d71f]';
+  'h-12 w-full rounded-[12px] border border-[#84a4eb] bg-white px-4 text-[14px] font-semibold text-[#13213c] shadow-[0_8px_20px_rgba(79,120,211,0.12)] transition placeholder:font-medium placeholder:text-[#a0afcb] focus:border-[#5a7ad9] focus:outline-none focus:ring-0';
 
 export const selectClassName = `${inputClassName} appearance-none pr-10`;
 
 export const miniInputClassName =
-  'h-11 w-full rounded-[12px] border border-[#84a4eb] bg-white px-3 text-[13px] font-semibold text-[#13213c] shadow-[0_8px_20px_rgba(79,120,211,0.12)] transition placeholder:text-[#a0afcb] focus:border-[#1253d5] focus:outline-none focus:ring-4 focus:ring-[#1b56d71f]';
+  'h-11 w-full rounded-[12px] border border-[#84a4eb] bg-white px-3 text-[13px] font-semibold text-[#13213c] shadow-[0_8px_20px_rgba(79,120,211,0.12)] transition placeholder:text-[#a0afcb] focus:border-[#5a7ad9] focus:outline-none focus:ring-0';
 
 interface MobileScreenProps {
   children: ReactNode;
@@ -34,27 +34,10 @@ export function MobileScreen({
           className,
         )}
       >
-        <StatusBar />
         <div className={cn('flex-1 overflow-y-auto px-6 pb-8', contentClassName)}>
           {children}
         </div>
       </div>
-    </div>
-  );
-}
-
-export function StatusBar() {
-  return (
-    <div className="sticky top-0 z-20 flex items-center justify-between bg-white px-5 pb-3 pt-4 text-[11px] font-semibold text-[#111827]">
-      <div className="flex items-center gap-1.5">
-        <SignalHigh className="h-3.5 w-3.5" strokeWidth={2.4} />
-        <span className="text-[10px] font-medium tracking-normal text-[#25324d]">
-          Service
-        </span>
-        <WifiHigh className="h-3.5 w-3.5" strokeWidth={2.4} />
-      </div>
-      <span className="text-[11px] font-semibold tracking-normal">19:02</span>
-      <BatteryFull className="h-4 w-4" strokeWidth={2.2} />
     </div>
   );
 }
@@ -144,7 +127,7 @@ export function PrimaryButton({
   return (
     <button
       className={cn(
-        'h-[52px] w-full rounded-[14px] bg-[#0f4ecd] px-5 py-3 text-[14px] font-semibold uppercase tracking-[0.08em] text-white shadow-[0_14px_28px_rgba(15,78,205,0.28)] transition hover:brightness-105 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-45',
+        'h-[52px] w-full rounded-[14px] bg-[#0f4ecd] px-5 py-3 text-[14px] font-semibold uppercase tracking-[0.08em] text-white shadow-[0_14px_28px_rgba(15,78,205,0.28)] transition hover:brightness-110 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed',
         className,
       )}
       {...props}
@@ -162,7 +145,7 @@ export function SecondaryButton({
   return (
     <button
       className={cn(
-        'h-12 w-full rounded-[14px] border border-[#cad7f3] bg-white px-5 text-[14px] font-semibold text-[#1755c7] shadow-[0_8px_24px_rgba(61,103,195,0.12)] transition hover:border-[#7e9ee8] active:scale-[0.98]',
+        'h-12 w-full rounded-[14px] border border-[#cad7f3] bg-white px-5 text-[14px] font-semibold text-[#1755c7] shadow-[0_8px_24px_rgba(61,103,195,0.12)] transition hover:border-[#7e9ee8] active:bg-[#f5f7ff] disabled:opacity-50 disabled:cursor-not-allowed',
         className,
       )}
       {...props}
