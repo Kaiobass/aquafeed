@@ -39,7 +39,7 @@ const socialButtons = [
     filled: false,
     icon: (
       <svg className="h-5 w-5 text-black" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-        <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z" />
+        <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 2.75.72.14 2.65.5 6.4-1.3 8.29Z" />
       </svg>
     ),
   },
@@ -49,7 +49,7 @@ const socialButtons = [
     filled: true,
     icon: (
       <svg className="h-5 w-5" viewBox="0 0 24 24" fill="white" aria-hidden="true">
-        <path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07c0 6.03 4.39 11.02 10.13 11.93v-8.44H7.08v-3.49h3.05V9.41c0-3.03 1.79-4.7 4.53-4.7 1.31 0 2.69.24 2.69.24V7.9h-1.51c-1.49 0-1.95.93-1.95 1.89v2.28h3.32l-.53 3.49h-2.79V24C19.61 23.09 24 18.1 24 12.07Z" />
+        <path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07c0 6.03 4.39 11.02 10.13 11.93v-8.44H7.08v-3.49h3.05V9.41c0-3.03 1.79-4.7 4.53-4.7 1.31 0 2.69.24 2.69.24V7.9h-1.51c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.49h-2.79v8.44c5.74-.91 10.13-5.9 10.13-11.93Z" />
       </svg>
     ),
   },
@@ -95,7 +95,7 @@ export default function LoginScreen({ onNavigate }: LoginScreenProps) {
 
   return (
     <MobileScreen contentClassName="flex flex-col justify-between px-8 pb-8">
-      <div className="pt-6" />
+      <div className="pt-8" />
 
       <motion.div
         className="flex flex-1 flex-col items-center justify-center"
@@ -138,21 +138,20 @@ export default function LoginScreen({ onNavigate }: LoginScreenProps) {
         transition={{ delay: 0.55 }}
       >
         <p className="text-[13px] font-semibold text-[#1d2538]">Nossos parceiros</p>
-       <div className="mt-4 flex justify-center">
-  <a
-    href="https://snipboard.io/PT6GXU.jpg"
-    target="_blank"
-    rel="noreferrer"
-    className="rounded-[20px] bg-white px-5 py-4 shadow-[0_14px_30px_rgba(51,88,170,0.12)] transition hover:scale-[1.02]"
-  >
-    <img
-      src="https://snipboard.io/PT6GXU.jpg"
-      alt="Instituto Federal de Sergipe"
-      className="h-20 w-auto object-contain"
-    />
-  </a>
-</div>
-       
+        <div className="mt-4 flex justify-center">
+          <a
+            href="https://snipboard.io/PT6GXU.jpg"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-[20px] bg-white px-5 py-4 shadow-[0_14px_30px_rgba(51,88,170,0.12)] transition hover:scale-[1.02]"
+          >
+            <img
+              src="https://snipboard.io/PT6GXU.jpg"
+              alt="Instituto Federal de Sergipe"
+              className="h-20 w-auto object-contain"
+            />
+          </a>
+        </div>
       </motion.div>
     </MobileScreen>
   );
