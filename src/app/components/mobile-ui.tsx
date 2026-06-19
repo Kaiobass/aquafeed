@@ -48,49 +48,31 @@ interface LogoLockupProps {
 }
 
 export function LogoLockup({ compact = false, className }: LogoLockupProps) {
-  const markSize = compact ? 'h-14 w-12' : 'h-28 w-24';
-  const wordmarkSize = compact
-    ? 'text-[20px] tracking-[-0.07em]'
-    : 'text-[32px] tracking-[-0.08em]';
+  const containerSize = compact ? 'h-14 w-12' : 'h-28 w-24';
 
   return (
-    <div className={cn('flex flex-col items-center text-[#1656c8]', className)}>
-      <AquafeedMark className={markSize} />
-      <span className={cn('mt-2 font-extrabold uppercase leading-none', wordmarkSize)}>
-        AQUAFEED
-      </span>
+    <div className={cn('flex flex-col items-center', className)}>
+      <img 
+        src="https://snipboard.io/QXN6Et.jpg" 
+        alt="Aquafeed Logo" 
+        className={containerSize + ' object-contain'}
+      />
+      {!compact && (
+        <span className="mt-2 font-extrabold uppercase leading-none text-[32px] tracking-[-0.08em] text-[#1656c8]">
+          AQUAFEED
+        </span>
+      )}
     </div>
   );
 }
 
 export function AquafeedMark({ className }: { className?: string }) {
   return (
-    <svg
-      viewBox="0 0 88 118"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-    >
-      <path
-        d="M57 6H32V37L57 62V87L43 73V108L21 86V18L39 2H67V24L57 34V6Z"
-        stroke="currentColor"
-        strokeWidth="5.5"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M57 10H69V24L57 34"
-        stroke="currentColor"
-        strokeWidth="5.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M32 56H53"
-        stroke="currentColor"
-        strokeWidth="5.5"
-        strokeLinecap="round"
-      />
-    </svg>
+    <img 
+      src="https://snipboard.io/QXN6Et.jpg" 
+      alt="Aquafeed Mark" 
+      className={className + ' object-contain'}
+    />
   );
 }
 
@@ -127,7 +109,7 @@ export function PrimaryButton({
   return (
     <button
       className={cn(
-        'h-[52px] w-full rounded-[14px] bg-[#0f4ecd] px-5 py-3 text-[14px] font-semibold uppercase tracking-[0.08em] text-white shadow-[0_14px_28px_rgba(15,78,205,0.28)] transition hover:brightness-110 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed',
+        'h-[52px] w-full rounded-[14px] bg-[#0f4ecd] px-5 py-3 text-[14px] font-semibold uppercase tracking-[0.08em] text-white shadow-[0_14px_28px_rgba(15,78,205,0.28)] transition hover:brightness-110 active:scale-[0.98]',
         className,
       )}
       {...props}
@@ -145,7 +127,7 @@ export function SecondaryButton({
   return (
     <button
       className={cn(
-        'h-12 w-full rounded-[14px] border border-[#cad7f3] bg-white px-5 text-[14px] font-semibold text-[#1755c7] shadow-[0_8px_24px_rgba(61,103,195,0.12)] transition hover:border-[#7e9ee8] active:bg-[#f5f7ff] disabled:opacity-50 disabled:cursor-not-allowed',
+        'h-12 w-full rounded-[14px] border border-[#cad7f3] bg-white px-5 text-[14px] font-semibold text-[#1755c7] shadow-[0_8px_24px_rgba(61,103,195,0.12)] transition hover:border-[#7e9ee8] active:bg-[#f8fbfe]',
         className,
       )}
       {...props}
