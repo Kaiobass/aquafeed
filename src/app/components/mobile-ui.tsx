@@ -57,11 +57,6 @@ export function LogoLockup({ compact = false, className }: LogoLockupProps) {
         alt="Aquafeed Logo" 
         className={containerSize + ' object-contain'}
       />
-      {!compact && (
-        <span className="mt-2 font-extrabold uppercase leading-none text-[32px] tracking-[-0.08em] text-[#1656c8]">
-          AQUAFEED
-        </span>
-      )}
     </div>
   );
 }
