@@ -51,12 +51,12 @@ export function LogoLockup({ compact = false, className }: LogoLockupProps) {
   const containerSize = compact ? 'h-16 w-14' : 'h-40 w-40';
 
   return (
-    <div className={cn('flex flex-col items-center', className)}>
+    <div className={cn('flex items-center justify-center', className)}>
       <img 
         src="https://snipboard.io/QXN6Et.jpg" 
         alt="Aquafeed Logo" 
         className={containerSize + ' object-contain drop-shadow-none'}
-        style={{ backgroundSize: 'contain', backgroundColor: 'transparent' }}
+        style={{ backgroundSize: 'contain', backgroundColor: 'transparent', border: 'none' }}
       />
     </div>
   );
@@ -68,7 +68,7 @@ export function AquafeedMark({ className }: { className?: string }) {
       src="https://snipboard.io/QXN6Et.jpg" 
       alt="Aquafeed Mark" 
       className={className + ' object-contain drop-shadow-none'}
-      style={{ backgroundSize: 'contain', backgroundColor: 'transparent' }}
+      style={{ backgroundSize: 'contain', backgroundColor: 'transparent', border: 'none' }}
     />
   );
 }
