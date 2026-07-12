@@ -1,0 +1,19 @@
+{
+  "name": "AquaFeed",
+  "short_name": "AquaFeed",
+  "description": "Monitoramento de tanques para piscicultura.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f4ecd",
+  "icons": [
+    {
+      "src": "./aquafeed-pwa-icon.png",
+      "sizes": "324x324",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
