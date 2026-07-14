@@ -11,7 +11,7 @@
   "icons": [
     {
       "src": "./aquafeed-pwa-icon.png",
-      "sizes": "324x324",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
