@@ -1,4 +1,4 @@
-# 🐟 AquaFeed - Monitoramento e Alertas para Piscicultura
+#  AquaFeed - Monitoramento e Alertas para Piscicultura
 
 Bem-vindo ao repositório do desafio da empresa **AquaFeed** da segunda fase do curso Futuro Digital (CEPEDI)! 
 
@@ -65,27 +65,27 @@ O cronograma do projeto é dividido em entregas mensais ao longo de 3 meses. Aco
 
 ### 📍 Milestone 2: Conectividade e Alertas Ativos (Prazo: 30 de Junho)
 **Front-end:**
-- [ ] Desenvolver dashboard dinâmico consumindo dados da API.  
-- [ ] Implementar tabelas e gráficos (Chart.js ou Recharts).  
-- [ ] Criar alertas visuais.  
-- [ ] Iniciar configuração PWA (Service Worker) para cache.  
-- [ ] Implementar lógica offline-first com Local Storage para sincronização de leituras.  
+- [X] Desenvolver dashboard dinâmico consumindo dados da API.  
+- [X] Implementar tabelas e gráficos (Chart.js ou Recharts).  
+- [X] Criar alertas visuais.  
+- [X] Iniciar configuração PWA (Service Worker) para cache.  
+- [X] Implementar lógica offline-first com Local Storage para sincronização de leituras.  
 
 **Back-end:**
-- [ ] Criar endpoint para registro de leituras (manual e simulador). 
-- [ ] Implementar lógica de cálculo de status (OK, Atenção, Crítico) baseada em temperatura e oxigenação.  
-- [ ] Integrar API do Telegram (Bot) ou E-mail (Resend/SendGrid) para alertas ativos.
-- [ ] Configurar disparo automático de mensagens para níveis "Críticos" de oxigênio. 
+- [X] Criar endpoint para registro de leituras (manual e simulador). 
+- [X] Implementar lógica de cálculo de status (OK, Atenção, Crítico) baseada em temperatura e oxigenação.  
+- [X] Integrar API do Telegram (Bot) ou E-mail (Resend/SendGrid) para alertas ativos.
+- [X] Configurar disparo automático de mensagens para níveis "Críticos" de oxigênio. 
 
 ### 📍 Milestone 3: Polimento e "Instalação" (Prazo: 03 de Agosto)
 **Geral:**
-- [ ] Realizar deploy da aplicação web completa em nuvem (Front e Back).  
+- [X] Realizar deploy da aplicação web completa em nuvem (Front e Back).  
 
 **Front-end:**
-- [ ] Finalizar configuração do PWA (manifest.json, ícones).  
-- [ ] Habilitar função "Adicionar à Tela Inicial" para uso nativo.  
-- [ ] Conduzir testes finais de usabilidade.  
+- [X] Finalizar configuração do PWA (manifest.json, ícones).  
+- [X] Habilitar função "Adicionar à Tela Inicial" para uso nativo.  
+- [X] Conduzir testes finais de usabilidade.  
 
 **Back-end:**
-- [ ] Executar testes de estresse para recebimento de dados sincronizados em massa pós-conexão offline.  
-- [ ] Realizar testes de rotas principais e validação de segurança da API. 
+- [X] Executar testes de estresse para recebimento de dados sincronizados em massa pós-conexão offline.  
+- [X] Realizar testes de rotas principais e validação de segurança da API. 
